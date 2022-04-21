@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+body {
+    background: var(--body-background);
+    color:  var(--text-color);
+}
+
+header {
+    background-image: url('/assets/background.png');
+    height: 1000px;
+    width: 100%;
+}
+
+header .header-main { 
+    padding: 72px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-main ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+} 
+
+header .header-main ul li { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 18px;
+    line-height:22px;
+    opacity: 95%;
+}
+
+header .header-main ul li:hover {
+    cursor: pointer;
+    opacity: 100%;
+} 
+
+header .header-main a { 
+    background: #ffffff;
+    color: var(--black-text);
+    height:50px;
+    width: 230px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    text-decoration: none;
+
+    opacity: 95%;
+}
+
+header .header-main a:hover {
+    opacity: 100%;
+} 
