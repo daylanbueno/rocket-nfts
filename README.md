@@ -1,6 +1,7 @@
 # rocket-nfts
 
 
-## working to construct
+It is a page developed with HTML and CSS proposed by a challenge made by Rocketseat, in this project, I trained my skills with HTML CSS.
 
-![image](https://user-images.githubusercontent.com/17939912/164566963-31b97c86-a8a2-45dc-96c4-e0c7397d6fcf.png)
+
+![roket-NFTSv4](https://user-images.githubusercontent.com/17939912/164816681-cec0a9df-cc8c-4f04-b50c-a3d6eceba545.gif)
