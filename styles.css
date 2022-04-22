@@ -56,7 +56,7 @@ header .header-main ul li:hover {
 }
 
 header .header-main a {
-  background: #ffffff;
+  background:var(--text-color);
   color: var(--black-text);
   height: 50px;
   width: 230px;
@@ -160,7 +160,7 @@ main .banner {
 .banner .amout {
   width: 20%;
   height: 100%;
-  border-right: 1px solid #5a5757;
+  border-right: 1px solid var(--subtitle-color);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -178,7 +178,7 @@ main .banner {
   font-weight: 600;
   font-size: 50px;
   line-height: 61px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .banner .amout div small {
@@ -187,7 +187,7 @@ main .banner {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 }
 
 .banner .banner-content {
@@ -213,7 +213,7 @@ main .banner {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #ffffff;
+  color: var(--text-color);
 
   display: flex;
   flex-direction: column;
@@ -221,7 +221,7 @@ main .banner {
 }
 
 .banner-content .info div p a {
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .banner-content img {
@@ -278,7 +278,7 @@ main .banner {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 }
 
 .more-popular .card .amout {
@@ -295,7 +295,7 @@ main .banner {
 }
 
 .vertical-line {
-  border: 1px solid #5a5757;
+  border: 1px solid var(--subtitle-color);
 }
 
 .melhores-artistas {
@@ -334,11 +334,11 @@ main .banner {
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .melhores-artistas .title h1 strong {
-  color: #ff5b50;
+  color: var(--color-logo);
 }
 
 .group-melhores {
@@ -400,7 +400,7 @@ main .banner {
 
 footer {
   height: 709px;
-  background: #252525;
+  background: var(--card-color)
 }
 
 .footer-logo-button {
@@ -414,7 +414,7 @@ footer {
 .footer-logo-button button {
   width: 80px;
   height: 80px;
-  background: #ff5b50;
+  background: var(--color-logo);
   border: 0;
   opacity: 85%;
 }
@@ -425,7 +425,7 @@ footer {
 }
 
 .horizontal-line {
-  border: 1px solid #5a5757;
+  border: 1px solid var(--subtitle-color);
 }
 
 .footer-content {
@@ -435,7 +435,7 @@ footer {
 .section-novidades {
   height: 330px;
   width: 544px;
-  border-right: 1px solid #5a5757;
+  border-right: 1px solid var(--subtitle-color);
 
   display: flex;
   justify-content: center;
@@ -450,7 +450,7 @@ h2 {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 .section-novidades h2 {
@@ -469,13 +469,13 @@ h2 {
   padding: 0 20px;
   border: 0;
   outline: 0;
-  background: #0d0d0d;
+  background: var(--color-input);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 }
 
 .section-novidades div button {
@@ -517,11 +517,11 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 }
 
 .section-links ul .li-title {
-  color: #ffffff;
+  color: var(--text-color);
   font-weight: 700;
 }
 
@@ -537,7 +537,7 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #5a5757;
+  color: var(--subtitle-color);
 
   text-decoration: none;
 }
